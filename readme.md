@@ -9,7 +9,7 @@
 <br />
 
 ## Overview
-- [HTML-CSS](https://www.youtube.com/watch?v=G3e-cpL7ofc)   : 6 hr 31 min video - Youtube Clone
+- HTML-CSS: [6 hr 31 min video](https://www.youtube.com/watch?v=G3e-cpL7ofc) - Youtube Clone 
   
 <br />
   
