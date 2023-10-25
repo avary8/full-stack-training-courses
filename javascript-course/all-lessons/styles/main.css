@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 250%;
+}
+
+a { text-decoration: none; color:rgb(106, 107, 42)}
+a:hover { text-decoration: none; color:rgb(238, 255, 0); }
+a:focus, a:active { text-decoration: none; color:rgb(0, 255, 13); } 
+
+.clicked { color: rgb(0, 255, 13); }

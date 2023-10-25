@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Courses</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script defer src="js/index.js"></script>
+    <script id="script" type="text/javascript">
+      function changeFile(file) {
+        var src;
+        var type = "";
+        switch(file) {
+          case "objects":
+            src = "js/objects.js";
+            break;
+          case "class":
+            src = "js/class.js";
+            break;
+          case "JSON":
+            src = "js/JSON.js";
+            break;
+          case "error":
+            src = "js/error_handling.js";
+            break;
+          case "DOM":
+            break;
+          case "event":
+            break;
+          case "WSAPI":
+            src = "js/web_storage_API.js";
+            break;
+          case "modules":
+            break;
+          case "HOFunc":
+            type = "module";
+            src = "js/higher_order_functions.js";
+            break;
+          case "fetch":
+            src = "js/fetch_await_async.js";
+            break;
+          case "regex":
+            break;
+        }
+        const s = document.createElement("script");
+        s.src = src;
+        s.id = "script";
+        s.type = type;
+        document.body.appendChild(s);
+      }
+    </script>
+    
+  </head>
+  <body>
+    <main>
+      <h1>Click on Example to change JS file</h1>
+      <h1>See console.log() for outputs</h1>
+      <h2>Reload Page when loading same example more than once</h2>
+      <h1><a href="#" class="link" onclick="changeFile('objects');"> Object Example</a></h1>
+      <h1><a href="#" class="link" onclick="changeFile('class');"> Class Example</a></h1>
+      <h1><a href="#" class="link" onclick="changeFile('JSON');"> JSON Example</a></h1>
+      <h1><a href="#" class="link" onclick="changeFile('error');"> Error Handling Example</a></h1>
+      <h1><a href="html-examples/DOM.html"  class="link" onclick="changeFile('DOM');"> DOM Example</a></h1>
+      <h1><a href="html-examples/event.html" class="link" onclick="changeFile('event');"> Event Listener Example</a></h1>
+      <h1><a href="#" class="link" onclick="changeFile('WSAPI');"> Web Storage API Example</a></h1>
+      <h1><a href="html-examples/modules.html"  class="link" onclick="changeFile('modules');"> Modules Example</a></h1>
+      <h1><a href="#" class="link" onclick="changeFile('HOFunc');"> Higher Order Function Example</a></h1>
+      <h1><a href="#" class="link" onclick="changeFile('fetch');"> Fetch / Async / Await Example</a></h1>
+      <h1><a href="html-examples/regex.html"  class="link" onclick="changeFile('regex');"> Regex Example</a></h1>
+
+
+      <h1><a href="html-examples/viewNotes.html" class="link"> View Notes</a></h1>
+    </main>
+  </body>
+</html>

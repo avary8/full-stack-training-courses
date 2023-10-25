@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modules</title>
+    <script type="module" defer src="../js/modules.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        body {
+            min-height: 100vh;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            width: 100vw;
+            height: 48px;
+            position: fixed;
+            padding-left: 15px;
+            padding-right: 30px;
+            top: 0;
+            border-bottom: 1px solid #fff;
+            z-index: 2;
+            background-color: #000;
+            color: #fff;
+        }
+
+        a { text-decoration: none; color: rgb(106, 107, 42);}
+        a:hover { text-decoration: none; color:rgb(238, 255, 0); }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            z-index: 1;
+            padding-top: 48px;
+        }
+
+        .view1 {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            background-color: lightgray;
+            color: #000;
+        }
+
+        .view1 > div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 100px;
+            background-color: #000;
+            color: #fff;
+            margin: 10px;
+        }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <h1>Dom Example</h1>
+      <h1><a href="../index.html"> Go Back </a></h1>
+    </nav>
+    <main>
+      <section id="view1" class="view view1">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+        <div>7</div>
+        <div>8</div>
+        <div>9</div>
+        <div>10</div>
+        <div>11</div>
+        <div>12</div>
+      </section>
+    </main>
+  </body>
+</html>
