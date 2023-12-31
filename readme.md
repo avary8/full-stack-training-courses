@@ -5,6 +5,7 @@
 - [Overview](#overview)
 - [HTML CSS](#html-css)
 - [JavaScript](#javascript)
+- [Node.js](#node.js)
 
 
 <br />
@@ -28,6 +29,12 @@ In this course, I created a static youtube clone that links to the real website 
 [My Project](https://github.com/avary8/full-stack-training-courses/tree/main/javascript-course)
 
 In this course, I followed along through almost 30 core concepts of JavaScript. I dedicated a file to each concept I believed needed hands-on practice. As a result, I have over 10 example files with important concepts. As a side project, I designed my HTML file to link to each example JS files when clicked upon along with a way to return to the index.
+
+## Node.js
+[Course Used](https://youtu.be/f2EqECiTBL8?si=80VHbTteWDvIE1yb)
+[My Project](https://github.com/avary8/full-stack-training-courses/tree/main/node.js-course)
+
+
 
 
 <br />
