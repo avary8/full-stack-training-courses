@@ -13,6 +13,7 @@
 ## Overview
 - HTML-CSS: [6 hr 31 min video](https://www.youtube.com/watch?v=G3e-cpL7ofc) - Youtube Clone 
 - Javascript : [7 hr 55 min video](https://www.youtube.com/watch?v=EfAl9bwzVZk) - Learning Vanilla JavaScript
+- Node.js : [6 hr 51 min video](https://youtu.be/f2EqECiTBL8?si=HjQiMhK2TwmerWD9) - Mock API to learn the basics of Node.js and a brief intro to MongoDB
 <br />
   
 ## HTML CSS
@@ -28,13 +29,13 @@ In this course, I created a static youtube clone that links to the real website 
 [Course Used](https://youtu.be/EfAl9bwzVZk?si=HUIrpbR8rjClzBCC)  
 [My Project](https://github.com/avary8/full-stack-training-courses/tree/main/javascript-course)
 
-In this course, I followed along through almost 30 core concepts of JavaScript. I dedicated a file to each concept I believed needed hands-on practice. As a result, I have over 10 example files with important concepts. As a side project, I designed my HTML file to link to each example JS files when clicked upon along with a way to return to the index.
+In this course, I followed along through almost 30 core concepts of JavaScript. I dedicated a file to each concept I believed needed hands-on practice. As a result, I have over 10 example files with important concepts. As a side project, I designed my HTML file to link to each example JS files when clicked upon, along with a way to return to the index.
 
 ## Node.js
 [Course Used](https://youtu.be/f2EqECiTBL8?si=80VHbTteWDvIE1yb)
 [My Project](https://github.com/avary8/full-stack-training-courses/tree/main/node.js-course)
 
-
+In this course, I first created a basic webserver with just node.js. Following through the tutorial, I used Express.js, MongoDB, and learned core API concepts to create a user and employee API. 
 
 
 <br />
