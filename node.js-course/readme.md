@@ -20,6 +20,11 @@ Everything is cumulative starting at section 3
 
 # Some notable info
 - "node <file name>" to run a node file
+- one way to generate .env secrets : in cl
+```
+node
+require('crypto').randomBytes(64).toString('hex')
+```
 ### Node.JS vs JS 
 - runs on a server -- not in browser
 - console is terminal window

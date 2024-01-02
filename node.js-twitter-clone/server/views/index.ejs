@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<head>
+  <title>twottor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div>
+    <ul>
+      <% twoots.forEach(function(twoot) { %>
+        <li>
+          <%= twoot.text %>
+        </li>
+        <% }); %>
+    </ul>
+    <form class="form" action="/" method="post">
+      <textarea class="textBox" type="text" id="twootText" name="text" required></textarea>
+      <button class="button" type="submit" class="button">Twoot</button>
+    </form>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>

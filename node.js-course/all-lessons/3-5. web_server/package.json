@@ -1,8 +1,4 @@
 {
-  "dependencies": {
-    "date-fns": "^3.0.6",
-    "uuid": "^9.0.1"
-  },
   "name": "3",
   "version": "1.0.0",
   "main": "server.js",
@@ -12,8 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "nodemon": "^3.0.2"
-  }
+  "description": ""
 }

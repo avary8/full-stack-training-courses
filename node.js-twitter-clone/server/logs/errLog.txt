@@ -1,0 +1,40 @@
+20240102	00:16:25	06a378a4-8983-418f-8bfa-a05a0a6d2907	Error: Failed to lookup view "index" in views directory "E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\views"
+20240102	00:41:18	78cda399-ae41-4678-b80c-f5ae449308ea	Error: ENOENT: no such file or directory, stat 'E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\client\views\404.html'
+20240102	00:59:08	ca88a0c5-556c-4540-927c-b0043c4cfad2	Error: Failed to lookup view "index" in views directory "E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\index"
+20240102	00:59:27	0a7caf39-f0ca-42c1-a73b-40e76601e4c5	Error: Failed to lookup view "index" in views directory "E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\index"
+20240102	00:59:35	7d5eb8de-5a3b-4138-a3fa-c1b8b9201e24	Error: Failed to lookup view "index" in views directory "E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\index"
+20240102	00:59:38	96086ff2-5754-4808-9edd-0e7830815d50	Error: Failed to lookup view "index" in views directory "E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\index"
+20240102	01:00:00	89072ffb-d9cc-4753-99f0-398d0057f28f	Error: Failed to lookup view "../index" in views directory "E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\index"
+20240102	01:09:44	ec30cf0a-6742-4e5b-a6cc-fff06647ae9d	ReferenceError: E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\views\index.ejs:9
+    7|     <div>
+    8|       <ul>
+ >> 9|         <% twoots.forEach(twoot => { %>
+    10|           <li>
+    11|             <%= twoots.text %></li>
+    12|         <% }); %>
+
+twoots is not defined
+20240102	01:09:59	66b33de4-8ef8-43f4-a738-753c1c22b917	ReferenceError: E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\views\index.ejs:9
+    7|     <div>
+    8|       <ul>
+ >> 9|         <% twoots.forEach(twoot => { %>
+    10|           <li>
+    11|             <%= twoots.text %></li>
+    12|         <% }); %>
+
+twoots is not defined
+20240102	01:14:27	82b9566e-ae28-4595-8e70-cd2e26c35317	SyntaxError: Unexpected token ')' in E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240102	01:16:42	72937e51-c20c-4358-948e-4c4b49eef332	SyntaxError: Unexpected token ')' in E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240102	01:16:47	5fee8e45-b343-4b81-bc0a-ba6037779cbb	SyntaxError: Unexpected token ')' in E:\Projects\full-stack-courses\node.js-twitter-clone\app\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
