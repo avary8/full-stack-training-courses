@@ -1,0 +1,5 @@
+20231231	21:18:05	3e243927-9904-412d-8e72-e569061fe409	Error: Not allowed by CORS
+20231231	22:09:49	e0c20ae6-a00e-4c27-8ca2-893790983bb0	TypeError: req.json is not a function
+20240101	17:31:29	6b0cc023-5b42-4457-bd0c-6be56c77af65	ReferenceError: cookeies is not defined
+20240101	20:00:50	4a77b312-6ef1-4f7f-9ca4-e931371edb2b	SyntaxError: Expected ',' or '}' after property value in JSON at position 17
+20240101	20:05:15	a2fcb75b-121a-48f6-ac2b-89bf662c00e2	SyntaxError: Expected ',' or '}' after property value in JSON at position 12

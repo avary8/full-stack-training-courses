@@ -1,0 +1,50 @@
+[
+    {
+        "month": "January",
+        "color": "purple"
+    },
+    {
+        "month": "February",
+        "color": "blue"
+    },
+    {
+        "month": "March",
+        "color": "green"
+    },
+    {
+        "month": "April",
+        "color": "pink"
+    },
+    {
+        "month": "May",
+        "color": "turquoise"
+    },
+    {
+        "month": "June",
+        "color": "yellow"
+    },
+    {
+        "month": "July",
+        "color": "rwandb"
+    },
+    {
+        "month": "August",
+        "color": "b+w"
+    },
+    {
+        "month": "September",
+        "color": "light orange"
+    },
+    {
+        "month": "October",
+        "color": "black"
+    },
+    {
+        "month": "November",
+        "color": "burnt orange"
+    },
+    {
+        "month": "December",
+        "color": "dark red"
+    }
+]
