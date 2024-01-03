@@ -38,3 +38,43 @@ Or, if you meant to create an async function, pass `async: true` as an option.
 If the above error is not helpful, you may want to try EJS-Lint:
 https://github.com/RyanZim/EJS-Lint
 Or, if you meant to create an async function, pass `async: true` as an option.
+20240102	21:20:26	975ec47e-5b8b-4968-a1f4-e0a23336e5a6	ReferenceError: next is not defined
+20240103	16:55:59	e45d1df7-2343-4a68-8d8e-748c495cff3e	ReferenceError: E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs:26
+    24|           </div>
+    25|           <div class="dateDiv">
+ >> 26|             <li class="dateSpan"><%= formatDate(twoot.createdAt) %></li>
+    27|           </div>
+    28|         </div>
+    29|         <li class="endTwootDiv">
+
+formatDate is not defined
+20240103	16:56:18	78a37736-429c-4849-bac5-f29e7eecd4a5	SyntaxError: missing ) after argument list in E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240103	16:56:35	1dcd2826-0310-443f-a72b-e6b2eec28da0	SyntaxError: missing ) after argument list in E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240103	16:56:42	890983c4-6516-4567-9485-d02d7ecd6cfc	SyntaxError: missing ) after argument list in E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240103	16:57:21	53a170f6-b6d1-44ed-b633-d61fb0b8e1dd	SyntaxError: Unexpected token 'const' in E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240103	16:57:31	326e360f-989e-4f24-8acc-812ccc3f655b	SyntaxError: Unexpected token 'const' in E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.
+20240103	16:58:47	8b647354-06bb-4861-9d94-01c0ae6eacf7	SyntaxError: Unexpected token ')' in E:\Projects\full-stack-courses\node.js-twitter-clone\server\views\index.ejs while compiling ejs
+
+If the above error is not helpful, you may want to try EJS-Lint:
+https://github.com/RyanZim/EJS-Lint
+Or, if you meant to create an async function, pass `async: true` as an option.

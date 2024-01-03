@@ -33,9 +33,9 @@ app.use('/', require('./routes/api/twoots'));
 
 app.use('/twoots', require('./routes/api/twoots'));
 
-app.all('*', (req, res) => {
+app.all('*', (req, res, next) => {
     res.redirect('/');
-});
+  });
 
 
 app.use(errorHandler);

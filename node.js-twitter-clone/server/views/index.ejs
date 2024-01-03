@@ -6,21 +6,52 @@
 </head>
 
 <body>
-  <div>
+  <div class="flexBox">
+    <div class="sideButton1">
+      <button class="sideButton" onclick="scrollToTop()">Oldest Twoot</button>
+    </div>
+    <div  class="sideButton2">
+      <button class="sideButton" onclick="scrollToBottom()">Newest Twoot</button>
+    </div>
+  </div>
+  
+  <div id="scrollSection">
     <ul>
       <% twoots.forEach(function(twoot) { %>
-        <li>
+        <div class="topTwootDiv">
+          <div class="userDiv">
+            <li class="usernameSpan"><%= twoot.username %></li>
+          </div>
+          <div class="dateDiv">
+            <li class="dateSpan"><%= twoot.createdAt.toLocaleString('en-US', { weekday: 'long', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', timeZoneName: 'short'}).replace(/,/g, '') %></li>
+          </div>
+        </div>
+        <li class="endTwootDiv">
           <%= twoot.text %>
         </li>
         <% }); %>
     </ul>
     <form class="form" action="/" method="post">
-      <textarea class="textBox" type="text" id="twootText" name="text" required></textarea>
-      <button class="button" type="submit" class="button">Twoot</button>
+      <div class="flexBoxForm">
+        <textarea class="textBox" type="text" id="usernameInput" name="username" placeholder="anonymous"></textarea>
+        <textarea class="textBox" type="text" id="twootText" name="text" placeholder="Write your twoot" required></textarea>
+      </div>
+      <button class="submitButton" type="submit">Twoot</button>
     </form>
   </div>
   </div>
   </div>
 </body>
+
+<script>
+  function scrollToTop() {
+    var scrollSection = document.getElementById('scrollSection');
+    scrollSection.scrollTop = 0;
+  }
+  function scrollToBottom() {
+    var scrollSection = document.getElementById('scrollSection');
+    scrollSection.scrollTop = scrollSection.scrollHeight;
+  }
+</script>
 
 </html>

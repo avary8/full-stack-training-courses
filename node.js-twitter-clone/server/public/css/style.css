@@ -19,7 +19,7 @@
   
   div {
     margin: 0 auto;
-    height: calc(100% - 50px);
+    height: calc(100% - 70px);
     width: 70%;
     border-width: 500px;
     border-radius: 10px;
@@ -27,6 +27,50 @@
 
     overflow-y: auto;
   }
+
+  .flexBox {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 15%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(49, 24, 107);
+  }
+
+  .sideButton {
+    height: 97%;
+    width: 100%;
+    background: rgb(31, 32, 35);
+    border-radius: 5px;
+    border-width: 0px;
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+    display: flex;
+  }
+
+  .sideButton1, .sideButton2 {
+    position: absolute;
+    flex-basis: 48%;
+    background-color: rgb(49, 24, 107);
+  }
+
+  .sideButton1 {
+    top: 0px;
+  }
+
+  .sideButton2 {
+    bottom: 0px;
+  }
+
+  .sideButton:hover{
+    background-color: rgb(50, 52, 56);
+  }
+
 
 
   h1{
@@ -40,11 +84,49 @@
   }
   
   li {
-    margin-bottom: 5px;
-    border-bottom: 1px solid rgb(49, 24, 107);
-    padding-bottom: 5px;
+    margin-bottom: 0px;
+    padding-bottom: 1px;
+    padding-left: 2px;
+    padding-right: 2px;
     word-wrap: break-word;
     overflow: auto;
+  }
+
+  .topTwootDiv {
+    width: 100%;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .usernameSpan, .dateSpan {
+    text-align: left;
+    font-size: 16px;
+    color: rgb(133, 136, 143); 
+  } 
+  
+  .dateSpan {
+    text-align: right;
+  }
+
+  .userDiv {
+    text-align: left;
+    left: 0px;
+  }
+
+  .dateDiv {
+    text-align: right;
+    right: 0px;
+  }
+
+ 
+
+
+
+  .endTwootDiv {
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgb(49, 24, 107);
+    padding-bottom: 5px;
   }
 
   .form {
@@ -54,41 +136,73 @@
     display: flex;
     align-items: flex-start;
   }
-  .textBox {
-    width: 80%;
+
+  .flexBoxForm {
+    display: flex;
+    flex-direction: column;
+    height: 70px;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(49, 24, 107);
   }
 
-  .button {
-    width: 20%;
-  }  
+  #usernameInput {
+    height: 23px;
+    top: 0px;
+  }
 
-  .textBox, .button {
-    height: 50px;
+  .textBox {
+    width: 100%;
+    height: 44px;
+    bottom: 0px;
+  }
+
+  .textBox::placeholder {
+    font-size: 20px;
+    text-align: center;    
+    line-height: 2;
+    vertical-align: middle;
+  }
+
+  #usernameInput::placeholder { 
+    line-height: 1;
+  }
+
+  .textBox, .submitButton {
+    border-radius: 6px;
   }
 
   textarea[type=text] { 
     background: rgb(31, 32, 35);
     border-width: 0px;
-    font-size: 13px;
+    font-size: 14px;
     color: rgb(247, 248, 248);
     appearance: none;
     transition: border 0.15s ease 0s;
     outline: none;
     text-align: left;
-    font-size: medium;
     word-wrap: break-word;
     overflow: auto;
     resize: none;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-right: 2px;
   }
 
-  button[type=submit] {
+  .submitButton {
     outline: 0;
     border: 0;
+    width: 20%;
     cursor: pointer;
     font-weight: 600;
     font-size: 18px;
     background: rgb(31, 32, 35);
-    color: white;
     text-align: center;
+    height: 70px;
   }
+
+  .submitButton:hover {
+    background-color: rgb(50, 52, 56);
+  }
+
 

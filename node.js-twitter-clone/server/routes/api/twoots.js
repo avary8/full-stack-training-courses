@@ -7,7 +7,8 @@ router.route('/')
     .post(twootsController.createNewTwoot)
     .delete(twootsController.deleteTwoot);
 
-router.route('/:id')
-    .get(twootsController.getTwoot);
+// router.route('/:id')
+//     .get(twootsController.getTwoot);
+
 
 module.exports = router;
