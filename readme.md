@@ -7,6 +7,7 @@
 - [JavaScript](#javascript)
 - [Node.js MongoDB](#nodejs-mongodb)
 - [Twitter Clone](#twitter-clone)
+- [React](#react)
 
 <br />
 
@@ -46,7 +47,15 @@ Some topics covered were Express.js, MVC (model view controller) design pattern,
 ## Twitter Clone 
 [My Project](https://github.com/avary8/full-stack-training-courses/tree/main/node.js-twitter-clone)
 
- 
+Using the tutorials and skills learned so far, I created a simplified Twitter-esque clone using the MERN stack (without React). This text based posting website allows users to input a username (if desired) and a text to post. Each post is saved into MongoDB and uploaded to the front-end where the username, text, and date posted is displayed. This site features two buttons that will either scroll to the oldest or newest post. 
+
+
+
+## React
+[Course Used](https://youtu.be/RVFAyFWO4go?si=kFKC_ACh3CZwhSCA)  
+[My Project](https://github.com/avary8/full-stack-training-courses/tree/main/react-course)
+
+
 
 
 <br />
